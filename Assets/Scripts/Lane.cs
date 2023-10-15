@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class Lane : MonoBehaviour
 {
+    
     public Melanchall.DryWetMidi.MusicTheory.NoteName noteRestriction;
     public KeyCode input;
     public GameObject notePrefab;
@@ -56,6 +57,7 @@ public class Lane : MonoBehaviour
                 if (Math.Abs(audioTime - timeStamp) < marginOfError)
                 {
                     Hit();
+                    AudioSource.PlayClipAtPoint(notes[inputIndex].sound, new Vector3(5, 1, 2));
                     print($"Hit on {inputIndex} note");
                     Destroy(notes[inputIndex].gameObject);
                     inputIndex++;
@@ -70,6 +72,8 @@ public class Lane : MonoBehaviour
                 Miss();
                 print($"Missed {inputIndex} note");
                 inputIndex++;
+                AudioSource.PlayClipAtPoint(notes[inputIndex].sound, new Vector3(5, 1, 2));
+               
             }
         }       
     

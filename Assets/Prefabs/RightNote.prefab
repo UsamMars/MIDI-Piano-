@@ -46,6 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   assignedTime: 0
+  sound: {fileID: 8300000, guid: e9610238b3929b44c97f142e281a8984, type: 3}
 --- !u!212 &1534850418514208907
 SpriteRenderer:
   m_ObjectHideFlags: 0
