@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1534850418514208916}
   - component: {fileID: 1534850418514208907}
   m_Layer: 0
-  m_Name: RightNote
+  m_Name: CNote Sharp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   assignedTime: 0
-  sound: {fileID: 8300000, guid: e9610238b3929b44c97f142e281a8984, type: 3}
+  sound: {fileID: 8300000, guid: 8ca69e417c1d44747b5121be12ef3499, type: 3}
 --- !u!212 &1534850418514208907
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -89,7 +89,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 09c559345753288408ed30f4a62afa34, type: 3}
-  m_Color: {r: 1, g: 0.52406913, b: 0.15566039, a: 0.9019608}
+  m_Color: {r: 0.12820399, g: 0.6320754, b: 0.6223075, a: 0.9019608}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
