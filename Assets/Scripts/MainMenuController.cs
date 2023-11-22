@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -32,6 +31,7 @@ public class MainMenuController : MonoBehaviour
         mainPannel.SetActive(true); ;
         optionsPannel.SetActive(false);
         levelsPannel.SetActive(false);
+        
     }
 
     public void Level1()
@@ -47,6 +47,9 @@ public class MainMenuController : MonoBehaviour
     public void Level3()
     {
         SceneManager.LoadScene("Level 3");
+        
+
+
     }
 
 

@@ -1007,7 +1007,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: bd87b666bbef3e8439bc86786b9d5d39, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 0
   m_Pitch: 1
   Loop: 0
@@ -8478,7 +8478,7 @@ MonoBehaviour:
   songDelayInSeconds: 0
   marginOfError: 0.07
   inputDelayInMilliseconds: 0
-  fileLocation: CoffinDance.mid
+  fileLocation: chopin_funeral_march.mid
   noteTime: 1
   noteSpawnY: 7
   noteTapY: -3

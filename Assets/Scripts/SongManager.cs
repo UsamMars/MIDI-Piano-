@@ -1,11 +1,10 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using Melanchall.DryWetMidi.Core;
 using Melanchall.DryWetMidi.Interaction;
 using System.IO;
 using UnityEngine.Networking;
-using System;
+
 
 public class SongManager : MonoBehaviour
 {
@@ -91,8 +90,5 @@ public class SongManager : MonoBehaviour
         return (double)Instance.audioSource.timeSamples / Instance.audioSource.clip.frequency;
     }
 
-    void Update()
-    {
-        
-    }
+   
 }
